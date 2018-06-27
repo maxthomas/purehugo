@@ -1,6 +1,8 @@
 purehugo
 ========
 
+Fork of [purehugo](https://github.com/dplesca/purehugo) without google analytics.
+
 Hugo theme based on [purecss](http://purecss.io/) from Yahoo. The theme is based on [the purecss blog layout example](http://purecss.io/layouts/blog/), is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), google analytics, disqus comments and even a mini-asset-pipeline using gulp. If you end up using it, I'd love to see what you do with it so please give me a shout on [twitter](https://twitter.com/dragos_plesca).
 
 ### Installation
@@ -40,7 +42,7 @@ Syntax highlighting is enabled by default and it uses the nice [rainbow js](http
 
 ### Reponsive Images
 
-For responsive images you could use the built-in responsive image shortcode (without the `/**/` characters):  
+For responsive images you could use the built-in responsive image shortcode (without the `/**/` characters):
 ```
 {{%/* img-responsive "http://example.com/image.jpg" */%}}
 ```
